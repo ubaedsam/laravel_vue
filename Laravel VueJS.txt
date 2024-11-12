@@ -1,0 +1,25 @@
+informasi Laravel VueJS :
+
+1. Props : digunakan untuk menangkap data yang di kirim lalu ditampilkan ke dalama template
+2. Penulisan response JSON API sama halnya dengan route
+3. methods : digunakan untuk membuat function yang berfungsi dalam mengoperasikan beberapa data ke dalam template
+4. mounted : digunakan untuk menampilkan data yang di inginkan ke dalam user interface
+6. watch : digunakan untuk menampilkan data yang diinginkan berdasarkan hasil filter/ menyimpan data yang di inginkan untuk di proses lebih lanjut di methods
+7. data : digunakan untuk mendefinisikan data apa saja yang ingin di ambil atau di proses lebih lanjut
+
+Informasi script :
+
+1. composer require laravel/ui : untuk menginstall library vue atau react ke dalam laravel
+2. php artisan ui vue : untuk menggunakan salah satu framework front-end ke dalam laravel
+3. npm install : untuk mengubah css dari sass ke dalam css
+4. npm run dev : untuk menggabungkan file php ke dalam front-end vueJS
+5. npm run watch : untuk menjalankan file server front-end vueJS
+6. npm install vue-router@4 : untuk menginstall library vue router agar bisa menghubungkan vue dengan route
+7. npm install vuejs-noty : untuk menginstall library notifikasi vueJS setelah proses data berhasil atau yang lain // Pengganti Sweet alert
+8. npm install laravel-vue-pagination : untuk menginstall library laravel vueJS pagination
+
+Library :
+
+1. https://github.com/laravel/ui : Library laravel vue
+2. https://github.com/renoguyon/vuejs-noty : Library Notifikasi VueJS
+3. https://github.com/gilbitron/laravel-vue-pagination : Library Laravel VueJS Pagination
